@@ -46,7 +46,7 @@ header{
     text-shadow: .2rem .1rem .2px rgba( 0, 0, 0, .4);
     line-height: 4rem;
     margin-bottom: 1rem;
-    animation: movebanner 1.5s forwards;
+    animation: MoveBanner 1.5s forwards;
 }
 .banner p {
     font-family: "Josefin Slab", serif ;
@@ -54,7 +54,7 @@ header{
     font-size: 1.8rem;
     text-shadow: .1rem .1rem .2px rgba( 0, 0, 0, .4);
     margin-bottom: 2rem;
-    animation: movebanner 2s forwards;
+    animation: MoveBanner 2s forwards;
 }
 .banner button{
     font-family: "Mulish", serif;
@@ -68,12 +68,12 @@ header{
     letter-spacing: .1rem;
     border-radius: 5px;
     cursor: pointer;
-    animation: movebanner 2.5s forwards;
+    animation: MoveBanner 2.5s forwards;
 }
 .banner button:hover{
     opacity: 0.9;
 }
-@keyframes movebanner{
+@keyframes MoveBanner{
     0%{
         transform: translateY(15rem) rotateY(-50deg);
         opacity: 0;
