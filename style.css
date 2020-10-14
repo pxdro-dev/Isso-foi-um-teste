@@ -343,13 +343,14 @@ header{
     font-size: 2rem;
     font-weight: 500;
     color: #eeee;
-    letter-spacing: 2px;
+    letter-spacing: .1rem;
 }
 .card-info h3{
     font-family: var(--font-action);
     font-weight: 800;
     color: #a630f5;
     margin-bottom: 1.5rem;
+    letter-spacing: .1rem;
 }
 .card-info p{
     font-family: var(--font-secundaria);
@@ -357,6 +358,7 @@ header{
     font-weight: 400;
     width: 88%;
     margin-bottom: 2rem;
+    letter-spacing: .2px;
 }
 .card-info button{
     width: 8rem;
