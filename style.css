@@ -288,6 +288,8 @@ header{
 }
 .sessao-projetos{
     background-color: #f5f5f5;
+    width: 100%;
+    height: 90vh;
 }
 .projetos{
     display: flex;
@@ -327,7 +329,7 @@ header{
     transition: opacity .3s;
 }
 .card:hover .card-img-fundo img{
-    opacity: .5;
+    opacity: .3;
 }
 .card-info{
     position: absolute;
@@ -360,19 +362,25 @@ header{
     margin-bottom: 2rem;
     letter-spacing: .2px;
 }
-.card-info button{
+.btn{
     width: 8rem;
     height: 2.5rem;
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-family: var(--font-action);
-    font-size: .9rem;
     color: #eee;
     border-radius: .5rem;
     border: none;
     box-shadow: 0 .1rem .8rem rgba( 0, 0, 0, .4);
     cursor: pointer;
+}
+.card-info button{
+    width: 8rem;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: .8rem;
+    letter-spacing: 1px;
 }
 .card:hover .card-info{
     bottom: 2rem;
@@ -382,3 +390,86 @@ header{
  .card-info button:hover{
     color: #000
  }
+ .sessao-contato{
+     width: 100%;
+     height: 100vh;
+     background-color: #272727;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .contato-wrapper{
+     width: 60%;
+     height: 30rem;
+     display: flex;
+     box-shadow: 0 2rem 3rem rgba( 0, 0, 0, .9);
+ }
+ .contato-left{
+     width: 35%;
+     background: linear-gradient(rgba( 27, 27, 27, .4), rgba( 30, 30, 30, .9)), url(imagens/contato.png);
+     background-size: cover;
+ }
+ .contato-right{
+     width: 60%;
+     background-color: #eee;
+     padding: 1rem 3rem 3rem 3rem;
+ }
+ .sessao-contato h1{
+    width: 100%; 
+    text-align: center;
+    font-family:var(--font-primary);
+     color: #272727;
+     font-size: 3rem;
+     font-weight: lighter;
+ }
+ .sessao-contato form{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .input-group{
+     position: relative;
+ }
+ .field{
+     background: transparent;
+     border: none;
+     width: 20rem;
+     font-size: 1.5rem;
+     font-family: var(--font-secundaria);
+     border-bottom: 2px dashed #636363;
+     height: 3rem;
+     outline: none;
+     margin: 1rem 0;
+ }
+ .input-group textarea{
+     padding-top: 1rem;
+     max-width: 25rem;
+     max-height: 4rem;
+ }
+ .field-label{
+     position: absolute;
+    left: 0;
+    top: 2rem;
+    font-size: 1.2rem;
+    font-family: var(--font-secundaria);
+    text-transform: uppercase;
+    transition: all .3s;
+ }
+ .field:focus ~ label{
+     top: 0;
+     font-size: 1rem;
+ }
+ .field:focus{
+    border-bottom: 1px solid;
+}
+.btn-submit{
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.btn-submit:hover{
+    color: black;
+}
