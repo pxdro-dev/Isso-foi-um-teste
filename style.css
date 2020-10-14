@@ -13,6 +13,9 @@
     --font-secundaria:"Josefin Slab", serif;
     --font-action:"Mulish", serif;
 }
+html {
+   
+}
 .hbg{
     /*background-color: red;*/
     width: 2rem;
@@ -448,17 +451,17 @@ header{
      max-height: 4rem;
  }
  .field-label{
-     position: absolute;
+    position: absolute;
     left: 0;
-    top: 2rem;
-    font-size: 1.2rem;
+    top: -.2rem;
+    font-size: 1rem;
     font-family: var(--font-secundaria);
     text-transform: uppercase;
     transition: all .3s;
  }
  .field:focus ~ label{
-     top: 0;
-     font-size: 1rem;
+     top: -.8rem;
+     font-size: 1.2rem;
  }
  .field:focus{
     border-bottom: 1px solid;
