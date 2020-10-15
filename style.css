@@ -539,3 +539,26 @@ header{
 .btn-orcamento:hover{
     color: black;
 }
+
+input[type='range'] {
+    cursor: pointer;
+  }
+  
+  input[type='range'],
+  input[type='range']::-webkit-slider-runnable-track,
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 10px;
+    background:  #463f8f;
+    border-radius: 20px;
+    border: none;
+    outline:none;
+  }  
+  input[type='range']::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    margin-top: -4.5px;
+    background-color: #302b63;;
+    border-radius: 60px;
+  }
