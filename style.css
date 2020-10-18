@@ -539,7 +539,10 @@ header{
 .btn-orcamento:hover{
     color: black;
 }
-
+input:checked{
+    width: 15px;
+    height: 15px;
+  }
 input[type='range'] {
     cursor: pointer;
   }
