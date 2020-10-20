@@ -13,9 +13,6 @@
     --font-secundaria:"Josefin Slab", serif;
     --font-action:"Mulish", serif;
 }
-html{
-   scroll-behavior: smooth;
-}
 .hbg{
     /*background-color: red;*/
     width: 2rem;
